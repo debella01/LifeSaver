@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>LifeSaver Donor Registration</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+<script>
+        $(function() {
+            $('input').keyup(function() {
+                this.value = this.value.toLocaleUpperCase();
+            });
+        });
+</script>
+
+<div class="w3-container w3-teal">
+  <strong><center><h1>DONOR REGISTRATION FORM</h1></center></strong>
+</div>
+
+
+
+<div class="container">
+<form action="process_insert_donor.php" method="post" enctype="multipart/form-data" name="form1">
+    
+		
+  <div class="form-group">
+    <label for="Donor_name">Name</label>
+    <input type="text" class="form-control" name="Donor_name" id="Donor_name" required="required">
+  </div>
+  
+  <div class="form-group">
+    <label for="IC">Identity card (IC no, Mykad no)</label>
+    <input type="text" class="form-control" name="IC" id="IC" required="required">
+	<div class="form-helper">E.g: 111111-11-1111</div>
+  </div>
+  
+  <div class="form-group">
+    <label for="Gender">Gender</label><br>
+	<input type="radio" id="Female" name="Gender" value="F" required="required">
+    <label for="F">Female</label>
+    <input type="radio" id="Male" name="Gender" value="M">
+    <label for="M">Male</label><br>
+  </div>
+  
+  <div class="form-group">
+    <label for="Phone_num">Phone Number</label>
+    <input type="text" class="form-control" name="Phone_num" id="Phone_num" required="required">
+	<div class="form-helper">E.g: 111-12345678</div>
+  </div>
+
+  <div class="form-group">
+    <label for="Postcode">Postcode</label>
+    <input type="number" class="form-control" name="Postcode" id="Postcode" required="required">
+	<div class="form-helper">E.g:12345 </div>
+  </div> 
+
+  
+<button  name="SUBMIT" type="SUBMIT" class="btn btn-info">SUBMIT</button><br><br><br>
+
+</form>
+</body>
+</html>
+

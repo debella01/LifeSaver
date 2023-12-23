@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+
+body {
+    
+    background: #ffffff;
+	font-family: Montserrat, sans-serif;
+	position: auto; 
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+.aside {
+  background-color:#ffffff;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.main{  
+    position: auto; 
+    width:25%;  
+    border-radius: 25px;  
+    margin: 120px auto;  
+    background: #630000;  
+    padding: 50px;
+	color: #fff;
+}  
+
+.mySlides {
+text-align:center;
+margin-left: auto;
+margin-right: auto;
+width:90%;
+}
+
+.content {
+  background-color:#ffffff ;
+  color: black;
+  max-width: 1000px;
+}

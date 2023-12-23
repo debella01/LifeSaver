@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700');
+body{   
+    background:#FBF3E4;
+	font-family: Montserrat, sans-serif;		
+}  
+
+#main{  
+     
+    width:25%;  
+    border-radius: 25px;  
+    margin: 120px auto;  
+    background: #630000;  
+    padding: 50px;
+	color: #fff;
+}  
+#submit{  
+    width:25%;
+	border-radius: 25px;
+	color: #fff;  
+    background: #FFAD60;  
+    padding: 7px;  
+    margin-left: 80%;  
+}  
